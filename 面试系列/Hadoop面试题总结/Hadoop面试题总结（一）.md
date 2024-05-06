@@ -5,6 +5,7 @@
 
 ### 2、Hadoop运行模式  
 &emsp; 单机版、伪分布式模式、完全分布式模式  
+单机版与伪分布式虽然都运行在一个主机上，但二者的区别在于，单机版所有组件都在单个进程当中，但伪分布式的不同功能组件（例如NameNode，DataNode，ResourceManager与NodeManager等）在单独进程当中运行。
 
 ### 3、Hadoop生态圈的组件并做简要描述  
 &emsp; 1）Zookeeper：是一个开源的分布式应用程序协调服务,基于zookeeper可以实现同步服务，配置维护，命名服务。  
